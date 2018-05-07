@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'stico';
+  src:  url('fonts/stico.eot?umhxlz');
+  src:  url('fonts/stico.eot?umhxlz#iefix') format('embedded-opentype'),
+    url('fonts/stico.ttf?umhxlz') format('truetype'),
+    url('fonts/stico.woff?umhxlz') format('woff'),
+    url('fonts/stico.svg?umhxlz#stico') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="stico-"], [class*=" stico-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'stico' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.stico-logo:before {
+  content: "\e900";
+}

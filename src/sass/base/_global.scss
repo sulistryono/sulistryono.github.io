@@ -1,0 +1,21 @@
+html,
+body {
+  @extend %no-spacing;
+}
+body {
+  font-family: $montserrat;
+  font-size: 16px;
+  color: $color-primary;
+  background-color: $bg-white;
+}
+.main-content {
+  min-height: calc(100vh - 160px);
+}
+section {
+  &.greeting-section {
+    @extend %display-flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 160px);
+  }
+}

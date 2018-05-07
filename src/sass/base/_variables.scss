@@ -1,0 +1,23 @@
+// Typefaces
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,800');
+
+$montserrat: 'Montserrat', sans-serif;
+$poppins: 'Poppins', sans-serif;
+
+// Colors
+$black: #000;
+$white: #fff;
+$primary: #24292e;
+
+$color-black: $black;
+$color-white: $white;
+$color-primary: $primary;
+
+$bg-white: $white;
+$bg-black: $black;
+$bg-primary: $primary;
+$bg-body: #f3f3f3;
+
+// Breakpoints
+$sm-breakpoint: 480px;
