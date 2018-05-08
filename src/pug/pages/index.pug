@@ -3,5 +3,7 @@ block content
   .main-content
     section.greeting-section
       .greeting-wrapper
-        h2 Hi there!
-        p I'm a Frontend Web Developer.
+        h2(style="background-image: url('./assets/images/greeting.jpeg');") Hi there!
+        p I'm a
+          span.typewrite(data-period="1500", data-type='[ " Frontend Web Developer." ]')
+            span.wrap

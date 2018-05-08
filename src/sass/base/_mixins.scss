@@ -16,3 +16,16 @@
   -o-transform: translateY($y);
   transform: translateY($y);
 }
+@mixin rotateZ($z) {
+  -webkit-transform: rotateZ($z);
+  -moz-transform: rotateZ($z);
+  -ms-transform: rotateZ($z);
+  -o-transform: rotateZ($z);
+  transform: rotateZ($z);
+}
+@mixin transition($value) {
+  -webkit-transition: $value;
+  -moz-transition: $value;
+  -o-transition: $value;
+  transition: $value;
+}
