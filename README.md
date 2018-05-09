@@ -1,3 +1,16 @@
-# Sulis Triyono Github Page
+# Sulis Triyono
 
-Check this out! [sulistryono.github.io](https://sulistryono.github.io/)
+A simple GitHub page.
+
+## Typefaces
+
+* Montserrat
+* Poppins
+
+## Social Media Icons
+
+Font Awesome 5 (svg files)
+
+## Typing Effect
+
+[css-tricks](https://css-tricks.com/snippets/css/typewriter-effect/)
