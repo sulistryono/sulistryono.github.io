@@ -11,12 +11,17 @@ body {
 }
 .main-content {
   min-height: calc(100vh - 160px);
+  padding: 0 25px;
 }
 section {
+  display: none;
   &.greeting-section {
     @extend %display-flex;
     justify-content: center;
     align-items: center;
     min-height: calc(100vh - 160px);
+  }
+  &.active {
+    display: block;
   }
 }
