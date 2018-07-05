@@ -1,0 +1,44 @@
+.main-menu {
+  @extend %display-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @include box(280px, 100%);
+  position: fixed;
+  top: 0;
+  right: -280px;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: $primary;
+  .menu-title {
+    h3 {
+      @extend %no-spacing;
+      font-size: 1.125rem;
+      color: $white;
+    } 
+  }
+  .menu-wrapper {
+    ul {
+      @extend %no-spacing;
+      li {
+        a {
+          display: block;
+          font-family: $poppins;
+          font-size: 1rem;
+          font-weight: 400; 
+          text-decoration: none;
+          color: $white;
+        }
+        + li {
+          margin: 15px 0 0;
+        }
+      }
+    }
+  }
+  .menu-copyright {
+    p {
+      margin: 5px 0;
+      font-size: .875rem;
+      color: $white;
+    }
+  }
+}

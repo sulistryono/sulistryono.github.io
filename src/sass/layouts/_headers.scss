@@ -48,18 +48,6 @@ header {
             width: 24px;
           }
         }
-        &:before {
-          @include rotateZ(90deg);
-          @include borderRadius(2px);
-          content: 'Comming soon!';
-          position: absolute;
-          top: 78px;
-          left: -44px;
-          font-size: .875em;
-          line-height: 1;
-          white-space: nowrap;
-          color: $color-primary;
-        }
       }
     }
   }

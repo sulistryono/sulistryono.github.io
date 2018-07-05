@@ -1,6 +1,7 @@
 html,
 body {
   @extend %no-spacing;
+  position: relative;
 }
 body {
   font-family: $montserrat;

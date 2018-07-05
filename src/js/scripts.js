@@ -45,3 +45,19 @@ window.onload = function() {
       }
   }
 };
+
+(function($) {
+  'use strict';
+  // Menu
+  $('.js-menu-button').on('click', function() {
+    if ($('.main-menu').hasClass('show')) {
+      $('.main-menu').removeClass('show');
+      $('.main-menu').animate({ right: '-280px' }, 500);
+      $('body').animate({ left: '0' }, 500);
+    } else {
+      $('.main-menu').addClass('show');
+      $('.main-menu').animate({ right: '0' }, 500);
+      $('body').animate({ left: '-280px' }, 500);
+    }
+  });
+})(jQuery);
