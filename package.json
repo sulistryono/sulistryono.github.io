@@ -1,7 +1,7 @@
 {
-  "name": "pug-sass-starter",
+  "name": "sulistryono-github-io",
   "version": "1.0.0",
-  "description": "A simple starter for building HTML templates with Pug and Sass.",
+  "description": "A simple GitHub page.",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp",
@@ -10,12 +10,13 @@
   "author": "Sulis Triyono",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-connect": "^5.0.0",
-    "gulp-plumber": "^1.1.0",
-    "gulp-pug": "^3.3.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^3.0.0"
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1"
   }
 }
