@@ -1,0 +1,28 @@
+.greeting-wrapper
+  h2,
+  p
+    @extend %no-spacing
+    text-align: center
+  h2
+    margin: 0 0 5px
+    font-family: $poppins
+    font-size: 6em
+    font-weight: 800
+    line-height: 1
+    text-transform: uppercase
+    background-image: url('../images/greeting.jpeg')
+    background-size: cover
+    background-position: center
+    background-clip: text
+    -webkit-background-clip: text
+    color: transparent
+  p
+    font-size: 1.5em
+
+// Media queries
+@media screen and (max-width: $sm-breakpoint)
+  .greeting-wrapper
+    h2
+      font-size: 3.5em
+    p
+      font-size: .875em

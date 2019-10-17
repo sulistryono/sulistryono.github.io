@@ -1,0 +1,42 @@
+.main-menu
+  @extend %display-flex
+  flex-direction: column
+  justify-content: space-between
+  @include box(280px, 100%)
+  position: fixed
+  top: 0
+  right: -280px
+  padding: 28px 30px
+  box-sizing: border-box
+  background-color: $primary
+  .menu-title
+    img
+      display: inline-block
+      vertical-align: middle
+      max-height: 24px
+    h3
+      @extend %no-spacing
+      display: inline-block
+      vertical-align: middle
+      margin: 0 0 0 3px
+      font-size: 1.125rem
+      line-height: 1
+      color: $white 
+  .menu-wrapper
+    ul
+      @extend %no-spacing
+      li
+        a
+          display: block
+          font-family: $poppins
+          font-size: 1rem
+          font-weight: 400 
+          text-decoration: none
+          color: $white
+        + li
+          margin: 15px 0 0
+  .menu-copyright
+    p
+      margin: 6px 0
+      font-size: .875rem
+      color: $white

@@ -1,0 +1,32 @@
+footer
+  @extend %display-flex
+  justify-content: space-between
+  align-items: center
+  min-height: 80px
+  padding: 0 25px
+  .footer-text
+    p
+      @extend %no-spacing
+      font-size: .875em
+  .footer-social
+    ul
+      @extend %no-spacing
+      @extend %display-flex
+      justify-content: center
+      list-style: none
+      li
+        a
+          img
+            @extend %no-spacing
+            @include box(auto, 24px)
+        + Li
+          margin: 0 0 0 20px
+
+// Media queries
+@media screen and (max-width: $sm-breakpoint)
+  footer
+    .footer-social
+      ul
+        li
+          + li
+            margin: 0 0 0 15px

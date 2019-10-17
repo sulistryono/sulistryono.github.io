@@ -1,6 +1,6 @@
 # Sulis Triyono
 
-A simple GitHub page.
+A simple GitHub page build with [pug-sass-starter](https://github.com/sulistryono/pug-sass-starter)
 
 ## Typefaces
 

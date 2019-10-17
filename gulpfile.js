@@ -17,13 +17,14 @@ function reload(done) {
 
 function styles() {
   return (
-    gulp.src('src/sass/styles.scss')
+    gulp.src('src/sass/styles.sass')
     .pipe(plumber())
     .pipe(sass())
     .pipe(autoprefixer({
       overrideBrowserslist: ['last 3 versions'],
       cascade: false
     }))
+    .pipe(sass({outputStyle: 'expanded'}))
     .pipe(gulp.dest('assets/css'))
     .pipe(sass({outputStyle: 'compressed'}))
     .pipe(rename('styles.min.css'))
@@ -66,7 +67,7 @@ function views() {
 
 function watchTask(done) {
   gulp.watch('*.html', html);
-  gulp.watch('src/sass/**/*.scss', styles);
+  gulp.watch('src/sass/**/*.sass', styles);
   gulp.watch('src/js/scripts.js', scripts);
   gulp.watch('src/pug/**/*.pug', views);
   done();
