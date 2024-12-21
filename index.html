@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Sulis Triyono</title><link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+    <!-- Styles-->
+    <link href="./assets/css/styles.min.css" rel="stylesheet">
+    <link href="./assets/fonts/fontawesome/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="app">
+      <header></header>
+      <div class="main-content"> 
+        <section class="section-home-hero"> 
+          <div class="section-home-hero-bg"></div>
+          <div class="home-hero-container">
+            <div class="container">
+              <div class="home-hero-wrapper">
+                <div class="home-hero-image"><img src="./assets/images/profile.jpg" alt="Sulis Triyono"></div>
+                <div class="home-hero-text">
+                  <h1>Sulis Triyono</h1>
+                  <h2>A Frontend Web Developer</h2><a class="btn btn-primary" href="mailto:hello.sulistryono@gmail.com">Let's Talk</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-home-about"> 
+          <div class="container"> 
+            <div class="home-about-container">
+              <div class="home-about-text"> 
+                <p>Hi there, I'm a Frontend Web Developer who is interested in User Interface design. Currently working for a design agency based in Yogyakarta, Indonesia with responsibility for developing websites using HTML, ReactJS, VueJS, WordPress, Webflow etc.</p>
+              </div>
+              <div class="home-about-social-media"> 
+                <ul>
+                  <li><a href="https://www.github.com/sulistryono" target="_blank"><i class="fab fa-github"></i></a></li>
+                  <li><a href="https://www.dribbble.com/sulistryono" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+                  <li><a href="https://www.instagram.com/sulistryono_/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="https://www.twitter.com/sulistryono_/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="home-portfolio-container"> 
+              <div class="section-title">
+                <h2>Featured Projects</h2>
+              </div>
+              <div class="home-portfolio-wrapper">
+                <div class="portfolio-wrapper"><a href="https://www.paperpillar.com" target="_blank"><img src="./assets/images/paperpillar.jpg" alt="Paperpillar"></a>
+                  <h3><a href="https://www.paperpillar.com" target="_blank">Paperpillar</a></h3>
+                  <p>A website for a design and development agency</p>
+                </div>
+                <div class="portfolio-wrapper"><a href="http://www.egrower.id" target="_blank"><img src="./assets/images/egrower.jpg" alt="eGrower"></a>
+                  <h3><a href="http://www.egrower.id" target="_blank">eGrower</a></h3>
+                  <p>A website for a mobile agricultural app</p>
+                </div>
+                <div class="portfolio-wrapper"><a href="https://www.webkraf.com" target="_blank"><img src="./assets/images/webkraf.jpg" alt="Webkraf"></a>
+                  <h3><a href="https://www.webkraf.com" target="_blank">Webkraf</a></h3>
+                  <p>A website for a software development company</p>
+                </div>
+                <div class="portfolio-wrapper"><a href="https://www.troveskin.com" target="_blank"><img src="./assets/images/troveskin.jpg" alt="TroveSkin"></a>
+                  <h3><a href="https://www.troveskin.com" target="_blank">TroveSkin</a></h3>
+                  <p>A website for a mobile beauty app</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <div class="footer-wrapper">
+          <p>Copyright &copy; <span id="footer-year"></span></p>
+        </div>
+      </footer>
+    </div>
+    <!-- Scripts-->
+    <script src="./assets/vendors/jquery/jquery.min.js"></script>
+    <script src="./assets/vendors/jparticle/jparticle.jquery.min.js"></script>
+    <script src="./assets/js/scripts.min.js"></script>
+    <script>
+      (function($){
+        'use strict';
+        $('.section-home-hero-bg').jParticle({ background: 'rgba(0, 0, 0, 0)', color: 'rgba(60, 163, 156, 0.25)' });
+      })(jQuery);
+      const d = new Date();
+      let year = d.getFullYear();
+      document.getElementById('footer-year').innerHTML = year;
+    </script>
+  </body>
+</html>
