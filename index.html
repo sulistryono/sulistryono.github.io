@@ -3,46 +3,129 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>Sulis Triyono</title><link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO-->
+    <meta name="description" content="Over 10 years of experience in web development using HTML, ReactJS, Webflow and WordPress. Experienced in developing responsive and cross-browser compatible websites that are pixel-perfect or closely match the designs.">
+    <meta name="”robots”" content="index, follow">
+    <!-- Open Graph-->
+    <meta property="og:title" content="Sulis Triyono">
+    <meta property="og:description" content="Over 10 years of experience in web development using HTML, ReactJS, Webflow and WordPress. Experienced in developing responsive and cross-browser compatible websites that are pixel-perfect or closely match the designs.">
+    <meta property="og:image" content="https://www.sulistryono.com/assets/images/open-graph.png">
+    <!-- Twitter Card-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sulis Triyono">
+    <meta name="twitter:description" content="Over 10 years of experience in web development using HTML, ReactJS, Webflow and WordPress. Experienced in developing responsive and cross-browser compatible websites that are pixel-perfect or closely match the designs.">
+    <meta name="twitter:image" content="https://www.sulistryono.com/assets/images/open-graph.png">
+    <title>Sulis Triyono | A Front-end Web Developer</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
     <!-- Styles-->
     <link href="./assets/css/styles.min.css" rel="stylesheet">
     <link href="./assets/fonts/fontawesome/css/all.css" rel="stylesheet">
   </head>
   <body>
     <div class="app">
-      <header></header>
-      <div class="main-content"> 
-        <section class="section-home-hero"> 
-          <div class="section-home-hero-bg"></div>
-          <div class="home-hero-container">
-            <div class="container">
-              <div class="home-hero-wrapper">
-                <div class="home-hero-image"><img src="./assets/images/profile.jpg" alt="Sulis Triyono"></div>
-                <div class="home-hero-text">
-                  <h1>Sulis Triyono</h1>
-                  <h2>A Frontend Web Developer</h2><a class="btn btn-primary" href="mailto:hello.sulistryono@gmail.com">Let's Talk</a>
+      <div class="section-bg"><img class="ornament-top" src="./assets/images/ornament.png" alt="Ornament Top"><img class="ornament-bottom" src="./assets/images/ornament.png" alt="Ornament Bottom"></div>
+      <header>
+        <div class="header-container">
+          <div class="container">
+            <div class="header-wrapper">
+              <div class="header-logo"> <a href="index.html"><img src="./assets/images/logo.png" alt="Sulis Triyono"></a></div>
+              <div class="header-menu">
+                <div class="header-menu-mobile">
+                  <div class="mobile-button"><span></span><span></span></div>
+                </div>
+                <div class="header-menu-desktop">
+                  <nav>
+                    <ul>
+                      <li><span class="onepage" data-section="home">Home</span></li>
+                      <li><span class="onepage" data-section="about">About</span></li>
+                      <li><span class="onepage" data-section="project">Projects</span></li>
+                      <li><a href="mailto:hello.sulistryono@gmail.com">Contact</a></li>
+                    </ul>
+                  </nav>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-        <section class="section-home-about"> 
-          <div class="container"> 
-            <div class="home-about-container">
-              <div class="home-about-text"> 
-                <p>Hi there, I'm a Front-End Web Developer specializing in User Interface development using HTML, CSS and JavaScript. Experienced in developing responsive and cross-browser compatible websites that are pixel perfect or closely match the existing designs in Figma.</p>
-              </div>
-              <div class="home-about-social-media"> 
-                <ul>
-                  <li><a href="https://www.linkedin.com/in/sulistryono" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                  <li><a href="https://www.github.com/sulistryono" target="_blank"><i class="fab fa-github"></i></a></li>
-                  <li><a href="https://www.dribbble.com/sulistryono" target="_blank"><i class="fab fa-dribbble"></i></a></li>
-                  <li><a href="https://www.instagram.com/sulistryono_/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                </ul>
+        </div>
+      </header>
+      <div class="main-content">
+        <section>
+          <div class="home-hero-container" data-target="home">
+            <div class="container">
+              <div class="home-hero-wrapper">
+                <div class="home-hero-image"><img src="./assets/images/profile.jpg" alt="Sulis Triyono"></div>
+                <div class="home-hero-text">
+                  <h1>Hi There! I'm Sulis Triyono<br>A Front-end Web Developer</h1>
+                  <div class="home-hero-badge">
+                    <div class="badge"><span>Available for Hire</span></div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="home-portfolio-container"> 
+          </div>
+          <div class="home-about-container" data-target="about">
+            <div class="container">
+              <div class="home-about-text">
+                <div class="home-about-info">
+                  <h2>10+</h2>
+                  <p>Years of Experience</p>
+                </div>
+                <p>Over 10 years of experience in web development (especially user interface) using HTML, CSS and JavaScript. Experienced in developing responsive and cross-browser compatible websites that are pixel-perfect or closely match the designs using several latest web technologies.</p>
+              </div>
+              <div class="home-about-tech">
+                <div class="tech-card"><img src="./assets/images/html.png" alt="HTML">
+                  <h3>HTML</h3>
+                </div>
+                <div class="tech-card"><img src="./assets/images/reactjs.png" alt="ReactJS">
+                  <h3>ReactJS</h3>
+                </div>
+                <div class="tech-card"><img src="./assets/images/webflow.png" alt="Webflow">
+                  <h3>Webflow</h3>
+                </div>
+                <div class="tech-card"><img src="./assets/images/wordpress.png" alt="WordPress">
+                  <h3>WordPress</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-cv-container">
+            <div class="container">
+              <div class="home-cv-wrapper">
+                <div class="cv-group">
+                  <div class="cv-title"><img src="./assets/icons/work.png" width="28" alt="Work Experience">
+                    <h2>Work Experience</h2>
+                  </div>
+                  <div class="cv-wrapper">
+                    <div class="cv-item">
+                      <div class="cv-time"><span>2018 - Current</span></div>
+                      <h3>Front-end Web Developer</h3>
+                      <p>PT Pilar Kreasi Digital (Paperpillar)</p>
+                    </div>
+                    <div class="cv-item">
+                      <div class="cv-time"><span>2014 - 2018</span></div>
+                      <h3>UI Engineer</h3>
+                      <p>PT Skyshi Digital Indonesia (Skyshi)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="cv-group">
+                  <div class="cv-title"><img src="./assets/icons/education.png" width="29" alt="Education">
+                    <h2>Education</h2>
+                  </div>
+                  <div class="cv-wrapper">
+                    <div class="cv-item">
+                      <div class="cv-time"><span>2010 - 2013</span></div>
+                      <h3>D3 Manajemen Informatika</h3>
+                      <p>Universitas Teknologi Digital Indonesia</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-portfolio-container" data-target="project">
+            <div class="container">
               <div class="section-title">
                 <h2>Featured Projects</h2>
               </div>
@@ -51,26 +134,48 @@
                   <h3><a href="https://www.paperpillar.com" target="_blank">Paperpillar</a></h3>
                   <p>A website for a design and development agency</p>
                 </div>
-                <div class="portfolio-wrapper"><a href="http://www.egrower.id" target="_blank"><img src="./assets/images/egrower.jpg" alt="eGrower"></a>
-                  <h3><a href="http://www.egrower.id" target="_blank">eGrower (Closed)</a></h3>
+                <div class="portfolio-wrapper"><img src="./assets/images/egrower.jpg" alt="eGrower">
+                  <h3>eGrower <span>(Closed)</span></h3>
                   <p>A website for a mobile agricultural app</p>
                 </div>
                 <div class="portfolio-wrapper"><a href="https://www.webkraf.com" target="_blank"><img src="./assets/images/webkraf.jpg" alt="Webkraf"></a>
-                  <h3><a href="https://www.webkraf.com" target="_blank">Webkraf (Redesigned)</a></h3>
+                  <h3><a href="https://www.webkraf.com" target="_blank">Webkraf <span>(Redesigned)</span></a></h3>
                   <p>A website for a software development company</p>
                 </div>
-                <div class="portfolio-wrapper"><a href="https://www.troveskin.com" target="_blank"><img src="./assets/images/troveskin.jpg" alt="TroveSkin"></a>
-                  <h3><a href="https://www.troveskin.com" target="_blank">TroveSkin (Closed)</a></h3>
+                <div class="portfolio-wrapper"><img src="./assets/images/troveskin.jpg" alt="TroveSkin">
+                  <h3>TroveSkin <span>(Closed)</span></h3>
                   <p>A website for a mobile beauty app</p>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-cta-container">
+            <div class="container">
+              <div class="home-cta-wrapper">
+                <h2>Interested to work with me?</h2>
+                <div class="home-cta-button"><a class="btn btn-outline-main" href="mailto:hello.sulistryono@gmail.com">Let's Talk</a></div>
               </div>
             </div>
           </div>
         </section>
       </div>
       <footer>
-        <div class="footer-wrapper">
-          <p>Copyright &copy; <span id="footer-year"></span></p>
+        <div class="footer-container">
+          <div class="container">
+            <div class="footer-wrapper">
+              <div class="footer-text">
+                <p>Copyright &copy; <span id="footer-year"></span></p>
+              </div>
+              <div class="footer-social">
+                <ul>
+                  <li><a href="https://www.linkedin.com/in/sulistryono" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                  <li><a href="https://www.github.com/sulistryono" target="_blank"><i class="fab fa-github"></i></a></li>
+                  <li><a href="https://www.dribbble.com/sulistryono" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+                  <li><a href="https://www.instagram.com/sulistryono_/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
@@ -79,10 +184,6 @@
     <script src="./assets/vendors/jparticle/jparticle.jquery.min.js"></script>
     <script src="./assets/js/scripts.min.js"></script>
     <script>
-      (function($){
-        'use strict';
-        $('.section-home-hero-bg').jParticle({ background: 'rgba(0, 0, 0, 0)', color: 'rgba(60, 163, 156, 0.25)' });
-      })(jQuery);
       const d = new Date();
       let year = d.getFullYear();
       document.getElementById('footer-year').innerHTML = year;
